@@ -140,8 +140,8 @@ def parse_args():
                         help='MLP dropout (default: 0.1)')
 
     # Training
-    parser.add_argument('--num_train_iter', type=int, default=15000)
-    parser.add_argument('--num_eval_iter', type=int, default=2200)
+    parser.add_argument('--num_train_iter', type=int, default=5600)
+    parser.add_argument('--num_eval_iter', type=int, default=400)
     parser.add_argument('--num_log_iter', type=int, default=200)
     parser.add_argument('--lr', type=float, default=5e-4)
     parser.add_argument('--layer_decay', type=float, default=0.5)
